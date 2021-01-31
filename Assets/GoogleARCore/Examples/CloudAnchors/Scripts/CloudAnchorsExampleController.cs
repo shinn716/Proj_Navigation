@@ -602,7 +602,7 @@ namespace GoogleARCore.Examples.CloudAnchors
             _currentMode = ApplicationMode.Ready;
             if (_worldOriginAnchor != null)
             {
-                Destroy(_worldOriginAnchor.gameObject);
+                DestroyImmediate(_worldOriginAnchor.gameObject);
             }
 
             IsOriginPlaced = false;

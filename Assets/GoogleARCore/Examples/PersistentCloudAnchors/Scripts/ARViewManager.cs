@@ -302,13 +302,13 @@ namespace GoogleARCore.Examples.PersistentCloudAnchors
 
             if (_qualityIndicator != null)
             {
-                Destroy(_qualityIndicator.gameObject);
+                DestroyImmediate(_qualityIndicator.gameObject);
                 _qualityIndicator = null;
             }
 
             if (_anchorComponent != null)
             {
-                Destroy(_anchorComponent.gameObject);
+                DestroyImmediate(_anchorComponent.gameObject);
                 _anchorComponent = null;
             }
 
@@ -316,7 +316,7 @@ namespace GoogleARCore.Examples.PersistentCloudAnchors
             {
                 foreach (var anchor in _cachedComponents)
                 {
-                    Destroy(anchor.gameObject);
+                    DestroyImmediate(anchor.gameObject);
                 }
 
                 _cachedComponents.Clear();

@@ -1,0 +1,183 @@
+fileFormatVersion: 2
+guid: 9293a53b8f9b142eeba5309d8daa0812
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: sign01_sign
+    100004: sign_AiSignboard011
+    100006: sign_FBXASC032ZhongSignboard038
+    100008: sign_FBXASC032ZhongSignboard039
+    100010: sign_sign02
+    100012: sign_sign03
+    100014: sign_XinSignboard004_02
+    100016: sign_XinSignboard0100
+    100018: sign_XinSignboard0101
+    100020: sign_XinSignboard0102
+    100022: sign_XinSignboard032
+    100024: sign_XinSignboard097
+    100026: sign_XinSignboard099
+    100028: sign_YiSignboard009
+    100030: sign_YiSignboard013
+    400000: //RootNode
+    400002: sign01_sign
+    400004: sign_AiSignboard011
+    400006: sign_FBXASC032ZhongSignboard038
+    400008: sign_FBXASC032ZhongSignboard039
+    400010: sign_sign02
+    400012: sign_sign03
+    400014: sign_XinSignboard004_02
+    400016: sign_XinSignboard0100
+    400018: sign_XinSignboard0101
+    400020: sign_XinSignboard0102
+    400022: sign_XinSignboard032
+    400024: sign_XinSignboard097
+    400026: sign_XinSignboard099
+    400028: sign_YiSignboard009
+    400030: sign_YiSignboard013
+    2100000: sign01_signMat
+    2100002: sign_AiSignboard011Mat
+    2100004: sign_FBXASC032ZhongSignboard038Mat
+    2100006: sign_FBXASC032ZhongSignboard039Mat
+    2100008: sign_sign02Mat
+    2100010: sign_sign03Mat
+    2100012: sign_XinSignboard004_02Mat
+    2100014: sign_XinSignboard0100Mat
+    2100016: sign_XinSignboard0101Mat
+    2100018: sign_XinSignboard0102Mat
+    2100020: sign_XinSignboard032Mat
+    2100022: sign_XinSignboard097Mat
+    2100024: sign_XinSignboard099Mat
+    2100026: sign_YiSignboard009Mat
+    2100028: sign_YiSignboard013Mat
+    2300000: sign01_sign
+    2300002: sign_AiSignboard011
+    2300004: sign_FBXASC032ZhongSignboard038
+    2300006: sign_FBXASC032ZhongSignboard039
+    2300008: sign_sign02
+    2300010: sign_sign03
+    2300012: sign_XinSignboard004_02
+    2300014: sign_XinSignboard0100
+    2300016: sign_XinSignboard0101
+    2300018: sign_XinSignboard0102
+    2300020: sign_XinSignboard032
+    2300022: sign_XinSignboard097
+    2300024: sign_XinSignboard099
+    2300026: sign_YiSignboard009
+    2300028: sign_YiSignboard013
+    3300000: sign01_sign
+    3300002: sign_AiSignboard011
+    3300004: sign_FBXASC032ZhongSignboard038
+    3300006: sign_FBXASC032ZhongSignboard039
+    3300008: sign_sign02
+    3300010: sign_sign03
+    3300012: sign_XinSignboard004_02
+    3300014: sign_XinSignboard0100
+    3300016: sign_XinSignboard0101
+    3300018: sign_XinSignboard0102
+    3300020: sign_XinSignboard032
+    3300022: sign_XinSignboard097
+    3300024: sign_XinSignboard099
+    3300026: sign_YiSignboard009
+    3300028: sign_YiSignboard013
+    4300000: sign01_sign
+    4300002: sign_AiSignboard011
+    4300004: sign_FBXASC032ZhongSignboard038
+    4300006: sign_FBXASC032ZhongSignboard039
+    4300008: sign_sign02
+    4300010: sign_sign03
+    4300012: sign_XinSignboard004_02
+    4300014: sign_XinSignboard0100
+    4300016: sign_XinSignboard0101
+    4300018: sign_XinSignboard0102
+    4300020: sign_XinSignboard032
+    4300022: sign_XinSignboard097
+    4300024: sign_XinSignboard099
+    4300026: sign_YiSignboard009
+    4300028: sign_YiSignboard013
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

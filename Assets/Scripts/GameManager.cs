@@ -21,7 +21,8 @@ public class GameManager : MonoBehaviour
         print("[module]" + Goble.moudleName);
         print("[name]" + Goble.userName);
 
-        //yield return Load_gameObject(url);
+        //StartCoroutine(LoadAssetBundle(url + ".asset"));
+        //yield return LoadAssetBundle(url + ".asset");
         yield return new WaitUntil(LoadProcess);
     }
 
@@ -43,19 +44,37 @@ public class GameManager : MonoBehaviour
     }
 
     #region Private
-    private IEnumerator Load_gameObject(string url)
+    //private IEnumerator Load_gameObject(string url)
+    //{
+    //    print("[url]" + url);
+    //    using (UnityWebRequest uwr = UnityWebRequestAssetBundle.GetAssetBundle(url, 0))
+    //    {
+    //        yield return uwr.SendWebRequest();
+    //        if (uwr.error != null)
+    //        {
+    //            throw new Exception("WWW download error: " + uwr.error);
+    //        }
+    //        AssetBundle bundle = DownloadHandlerAssetBundle.GetContent(uwr);
+    //        GameObject go = bundle.LoadAsset(bundle.name) as GameObject;
+    //        Instantiate(go);
+    //    }
+    //}
+
+
+    IEnumerator LoadAssetBundle(string url)
     {
-        using (UnityWebRequest uwr = UnityWebRequestAssetBundle.GetAssetBundle(url, 0))
+        print("[url]" + url);
+        var request = UnityWebRequestAssetBundle.GetAssetBundle(url);
+        yield return request.Send();
+        if (request.isNetworkError)
         {
-            yield return uwr.SendWebRequest();
-            if (uwr.error != null)
-            {
-                throw new Exception("WWW download error: " + uwr.error);
-            }
-            AssetBundle bundle = DownloadHandlerAssetBundle.GetContent(uwr);
-            GameObject go = bundle.LoadAsset(bundle.name) as GameObject;
-            Instantiate(go);
+            // TODO: Handle error, request.error
+            print("[error]" + request.isNetworkError);
+            yield break;
         }
+        var assetBundle = DownloadHandlerAssetBundle.GetContent(request);
+        GameObject go = assetBundle.LoadAsset(assetBundle.name) as GameObject;
+        Instantiate(go);
     }
     #endregion
 }

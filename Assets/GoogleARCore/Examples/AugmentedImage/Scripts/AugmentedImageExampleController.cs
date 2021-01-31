@@ -108,7 +108,7 @@ namespace GoogleARCore.Examples.AugmentedImage
                 else if (image.TrackingState == TrackingState.Stopped && visualizer != null)
                 {
                     _visualizers.Remove(image.DatabaseIndex);
-                    GameObject.Destroy(visualizer.gameObject);
+                    GameObject.DestroyImmediate(visualizer.gameObject);
                 }
             }
 

@@ -169,7 +169,7 @@ namespace GoogleARCore.Examples.ObjectManipulation
             Anchor newAnchor = _lastHit.Trackable.CreateAnchor(desiredPose);
             transform.parent = newAnchor.transform;
 
-            Destroy(oldAnchor);
+            DestroyImmediate(oldAnchor);
 
             _desiredLocalPosition = Vector3.zero;
 
